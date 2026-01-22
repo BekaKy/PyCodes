@@ -10,5 +10,5 @@ z = 1j   # Complex numbers are written with a "j" as the imaginary part.
 
 # To print a random number, we have to import the random module:
 import random
-
+# Now we use random.randrange(a, b) function in order to get random number in range from a to b
 print(random.randrange(1, 10))

@@ -5,6 +5,13 @@
 # You can display a string literal with the print() function:
 print("Hello")
 print('Hello')
+# Some examples of strings:
+
+simple_string = 'Hello'
+double_quote = "KBTU is 'great'" # Double quotes let you use single quotes inside and vice versa
+multiline = """This is a string
+that is spreaded across
+multiple lines."""
 
 # strings in Python are arrays of unicode characters.
 # Python does not have a character data type, a single character is simply a string with a length of 1.

@@ -3,6 +3,22 @@
 # Python is an object-orientated language, and as such it uses classes to define data types, including its primitive types.
 
 # Casting in python is therefore done using constructor functions:
-x = int(1)   # int() - constructs an integer number from an integer literal, a float literal (by removing all decimals), or a string literal (providing the string represents a whole number)
-y = float(2.8)   # float() - constructs a float number from an integer literal, a float literal or a string literal (providing the string represents a float or an integer)
-z = str(3.0)  # str() - constructs a string from a wide variety of data types, including strings, integer literals and float literals.
+# Int casting:
+print(int(3.1))      # Result: 3
+print(int(3.9))      # Result: 3 (does not round)
+print(int("100"))    # Result: 100
+print(int(True))     # Result: 1
+print(int(False))    # Result: 0
+
+# Float casting:
+print(float(10))     # Result: 10.0
+print(float("4.5"))  # Result: 4.5
+print(float("7"))    # Result: 7.0
+print(float(True))   # Result: 1.0
+
+# String casting:
+age = 25
+print("Age: " + age) # This would be an error, so we use casting
+print("Age: " + str(age))  # Result: "Age: 25"
+print(str(10.5))           # Result: "10.5"
+print(str(True))           # Result: "True"

@@ -13,5 +13,7 @@ Repository contains Practice folders with their respective numbers. In each fold
 
 ####  Core Concepts:
 - [ ] **Python basics**: The very first lessons from W3schools Python tutorial, such as variables, data types, strings etc.
+- [ ] **Python lists**: Various python lists, such as tuples, sets, and dictionaries.
+- [ ]  **Python functions and classes**: Python functions, lambda functions and the basics of Python Object Oriented Programming(POOP).
 
 List will be updated throughout the course.

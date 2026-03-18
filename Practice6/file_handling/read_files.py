@@ -1,0 +1,5 @@
+file = open("sample.txt", 'r')
+text = file.read()
+onel = file.readline()
+listoflines = file.readlines()
+print(text, onel, listoflines)

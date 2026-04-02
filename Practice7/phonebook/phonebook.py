@@ -75,11 +75,8 @@ def main():
     setup_database(conn)
     
     while True:
-        print("\n| 1. Show All \n| 2. CSV Import \n| 3. Manual Add \n| 4. Update Name \n| 5. Update Phone")
-        print("| 6. Search Name \n| 7. Search Prefix \n| 8. Delete Name \n| 9. Delete Phone \n| 0. Exit")
-        
+        print("\n| 1. Show All \n| 2. CSV Import \n| 3. Manual Add \n| 4. Update Name \n| 5. Update Phone \n| 6. Search Name \n| 7. Search Prefix \n| 8. Delete Name \n| 9. Delete Phone \n| 0. Exit")
         choice = input("\nSelect option: ")
-        
         if choice == "1":
             results = show_all(conn)
             for r in results: print(f"ID: {r[0]} | Name: {r[1]} | Phone: {r[2]}")

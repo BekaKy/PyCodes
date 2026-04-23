@@ -33,14 +33,16 @@ def main():
                     mode = 'green'
                 elif event.key == pygame.K_b: 
                     mode = 'blue'
+                # Practice 10 task
                 elif event.key == pygame.K_y: 
                     mode = 'yellow'
                 elif event.key == pygame.K_w: 
                     mode = 'white'
                 elif event.key == pygame.K_e: 
                     mode = 'eraser'
+                # Practice 10 task
 
-                # Shape selection
+                # Shape selection (Practice 10)
                 elif event.key == pygame.K_c: 
                     shape = 'circle'
                 elif event.key == pygame.K_s: 
@@ -88,7 +90,7 @@ def drawLineBetween(screen, index, start, end, width, color_mode, shape):
     elif color_mode == 'white': 
         color = (c2, c2, c2)
     else: 
-        color = (0, 0, 0) # Eraser
+        color = (0, 0, 0) # Eraser (Practice 10)
     
     dx = start[0] - end[0]
     dy = start[1] - end[1]
